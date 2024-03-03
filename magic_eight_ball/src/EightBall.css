@@ -1,0 +1,48 @@
+.eight-ball{
+display: flex;
+justify-content: center;
+ 
+}
+
+.eight-ball-title{
+    margin-top: 0%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: gainsboro;
+}
+
+
+
+.eight-ball-question{
+    width: 300px;
+    height: 300px;
+    background-color: black; 
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    color: antiquewhite;
+    justify-content: center;
+    font-size: 25px;
+    margin: 5% 15% 5% 15%;
+    
+}
+
+.eight-ball-answer{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+
+    margin: 5% 15% 5% 15%;
+
+}
+
+.eight-ball-restart{
+ border: none; 
+ padding: 10px 15px 10px 15px;
+ border-radius: 5%;
+ font-size: 15px;  
+}
